@@ -6,7 +6,7 @@ from constants.response_structure import ResponseUtil
 
 
 class ClientDetails(BaseModel):
-    name:str
+    clientname:str
     email:str
     mobile:str
     user_name:str
