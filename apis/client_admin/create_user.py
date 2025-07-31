@@ -17,9 +17,9 @@ class ClientDetails(BaseModel):
 async def create_user(request: Request, response: Response, item: ClientDetails):
     try:
         data={
-            "name": item.name,
-            "email": item.email,
-            "mobile": item.mobile,
+            "clientname": item.name,
+            "clientemail": item.email,
+            "clientmobile": item.mobile,
             "user_name": item.user_name,
             "password": item.password
         }
